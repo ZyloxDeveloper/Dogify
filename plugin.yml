@@ -1,6 +1,6 @@
 ---
 name: Dogify
-version: 0.0.1
+version: 1.0.0
 main: Zylox\Dogify\Loader
 api: 5.17.0
 src-namespace-prefix: Zylox\Dogify
