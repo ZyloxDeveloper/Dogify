@@ -1,0 +1,62 @@
+{
+      "namespace": "dogify_form",
+      "first": {
+        "type": "panel",
+        "controls": [
+          {
+            "image": {
+              "type": "image",
+              "layer": 2,
+              "size": [320, 320],
+              "offset": [-2, 0],
+              "bindings":[
+                {
+                  "binding_name": "#form_button_texture",
+                  "binding_name_override": "#texture",
+                  "binding_type": "collection",
+                  "binding_collection_name": "form_buttons"
+                },
+                {
+                  "binding_name": "#form_button_texture_file_system",
+                  "binding_name_override": "#texture_file_system",
+                  "binding_type": "collection",
+                  "binding_collection_name": "form_buttons"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "progress@progress.progress_loading_bars": {
+              "size": [300, 40],
+              "offset": [-2, 16],
+              "bindings":[
+                {
+                  "binding_type": "view",
+                  "source_control_name": "image",
+                  "resolve_sibling_scope": true,
+                  "source_property_name": "(#texture = 'loading')",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "close": {
+              "type": "panel",
+              "anchor_from": "top_right",
+              "anchor_to": "top_right",
+              "controls": [
+                {
+                  "close_button@btn_close.btn_close": {}
+                }
+              ]
+            }
+          }
+        ]
+      }
+  }

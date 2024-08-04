@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/forms/dogify_form.json",
+    "ui/forms/btn_close.json"
+  ]
+}

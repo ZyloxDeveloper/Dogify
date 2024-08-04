@@ -1,0 +1,30 @@
+{
+  "header": {
+    "uuid": "474234aa-b2af-4236-ab4f-c6dcf41deb7c",
+    "name": "Dogify Resource Pack",
+    "description": "Textures for Dogify.",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      2,
+      6
+    ]
+  },
+  "modules": [
+    {
+      "description": "Textures for Dogify.",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "uuid": "5f2e279e-a0b4-4515-22a3-2061210010cc",
+      "type": "resources"
+    }
+  ],
+  "format_version": 1
+}
