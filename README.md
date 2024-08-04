@@ -24,7 +24,7 @@ After installation, players can use the `/dogify` command to receive a random do
 No configuration required. The plugin is ready to use immediately upon installation.
 
 ## License
-This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/ZyloxDevelopere/Dogify/blob/main/LICENSE) file.
+This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/ZyloxDevelopere/Dogify/LICENSE) file.
 
 ## Contributing
 We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please open an issue or submit a pull request on our [GitHub repository](https://github.com/ZyloxDeveloper/Dogify).
