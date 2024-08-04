@@ -44,7 +44,7 @@ class Loader extends PluginBase{
 		$this->setInstance($this);
 
 		$target = $this->getServer()->getResourcePackManager()->getPath() . DIRECTORY_SEPARATOR . "dogify.zip";
-		$source = $this->getResourceFolder() . DIRECTORY_SEPARATOR . "resource_pack";
+		$source = $this->getResourcePath("resource_pack");
 
 		new ResourceManager($target, $source);
 	}
