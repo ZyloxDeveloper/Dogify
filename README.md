@@ -12,7 +12,7 @@ Dogify is a PocketMine-MP plugin that enhances your server experience by allowin
 2. **Deploy**: Place the downloaded `.phar` file into the `plugins` directory of your PocketMine-MP server.
 3. **Restart**: Restart your server to activate the plugin.
 
-![img](https://cdn.discordapp.com/attachments/419876965986729984/1269584413197336618/Screenshot_2024-08-04_041453.png?ex=66b0981f&is=66af469f&hm=f6d1dc55d95813bbcb6cc87adad12d9d8e904f392787fd762e9849b59ae7b0f0&)
+![img](https://media.discordapp.net/attachments/373214753147060235/1269600325816553543/image.png?ex=66b2a131&is=66b14fb1&hm=c543a6910a0e035919a501556560fd768bec0a49a10e386439019daecb674aab&=&format=webp&quality=lossless&width=1156&height=614)
 
 ## Commands
 - `/dogify` - Displays a random dog image.
